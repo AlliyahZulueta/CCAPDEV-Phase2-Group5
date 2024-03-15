@@ -1,0 +1,155 @@
+<div class="parent-container">
+    <header class="parent-container-header">
+        <div class="parent-container-header nav_img">
+            <div class="logo-header-container">
+                <img src = "image/alli/logo.png" class="logo-header" />
+            </div>
+            <div class = "menu-header-container">
+                <img src="image/althea/menu.png"  onclick="toggleMenu()" class="menu_pic" />
+                <nav>
+                    <div class="sub-menu-wrap" id="subMenu">
+                        <div class="sub-menu">
+                            <div class="user-info">
+                                <h2>Laundry Hub</h2>
+                            </div>
+                            <hr />
+                            <a href="/homepage" class="sub-menu-link">
+                                <img src="image/althea/home.png" />
+                                <p>Home</p>
+                                <span>></span>
+                            </a>
+
+                            <a href="/search" class="sub-menu-link">
+                                <img src="image/althea/explore.png" />
+                                <p>Explore</p>
+                                <span>></span>
+                            </a>
+
+                            <a href="/profile" class="sub-menu-link">
+                                <img src="image/althea/profile-menu.png" />
+                                <p>Profile</p>
+                                <span>></span>
+                            </a>
+                            <hr />
+
+                            <a href="/log_in" class="sub-menu-link">
+                                <img src="image/althea/login.png" />
+                                <p>Log in</p>
+                                <span>></span>
+                            </a>
+
+                            <a href="/homepage" class="sub-menu-link">
+                                <img src="image/althea/logout.png" />
+                                <p>Log out</p>
+                                <span>></span>
+                            </a>
+
+                            <a href="/sign_up" class="sub-menu-link">
+                                <img src="image/althea/register.png" />
+                                <p>Register</p>
+                                <span>></span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="parent-container-header nav_title">
+            <span class="home-text">LAUNDRY HUB</span>
+        </div>
+        <div class="search-text-area-border">
+            <form class="search-form-container" action="/search_result" onsubmit="updateSearchResultPlaceholder()">
+                <div class="search-menu">
+                    <input id="search-result-txt" name="search-result-txt" class="textfield" placeholder="Searched" />
+                </div>
+                <div class="filter-menu">
+                    <select id="filter" name="filter" class="filter_rating">
+                        <option value="filterlbl">FILTER</option>
+                        <option value="5">5 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="2">2 Stars</option>
+                        <option value="1">1 Star</option>
+                    </select>
+                </div>
+                <div class="search-icon-container">
+                    <img src="image/search_logo.png" class="search_icon" />
+                </div>
+            </form>
+        </div>
+    </header>
+    
+    <div class="search-container">
+        <div class="search-panel-top">
+            <div class="search-label">Search Result</div>
+            <div class="search-numlbl">About <span class="search-number">8</span> results</div>
+        </div>
+
+        <div class="search-panel-bottom">
+            <div class="search-panel-bottom-container">
+                <div class="search-panel-bottom-container-inner">
+                    <div id="store-container-card1" class="store-container-card" onclick="redirectToPage('Weclean')">
+                        <div class="store-container-card-top">
+                            <img src="image/image.jpg" class="shop_img">
+                        </div>
+                        <div class="store-container-card-middle">
+                            <img class="img_star" src="image/star.png">
+                        </div>
+                        <div class="store-container-card-bottom">
+                            <div class="store-description"><span class="laundryshop_name">Weclean</span><br>Eco-friendly laundry technologies for sustainable cleaning.</div>
+                        </div>
+                    </div>
+
+                    <div id="store-container-card2" class="store-container-card" onclick="redirectToPage('Nonstop Laundry Shop Malate')">
+                        <div class="store-container-card-top">
+                            <img src="image/image.jpg" class="shop_img">
+                        </div>
+                        <div class="store-container-card-middle">
+                            <img class="img_star" src="image/star.png">
+                            <img class="img_star" src="image/star.png">
+                        </div>
+                        <div class="store-container-card-bottom">
+                            <div class="store-description"><span class="laundryshop_name">Nonstop Laundry Shop Malate</span><br>State-of-the-art facilities for a seamless laundry experience.</div>
+                        </div>
+                    </div>
+                    
+                    <div id="store-container-card3" class="store-container-card" onclick="redirectToPage('7Folds Laundry')">
+                        <div class="store-container-card-top">
+                            <img src="image/image.jpg" class="shop_img">
+                        </div>
+                        <div class="store-container-card-middle">
+                            <img class="img_star" src="image/star.png">
+                            <img class="img_star" src="image/star.png">
+                            <img class="img_star" src="image/star.png">
+                        </div>
+                        <div class="store-container-card-bottom">
+                            <div class="store-description"><span class="laundryshop_name">7Folds Laundry</span><br>Rapid, efficient service to meet your laundry needs promptly.</div>
+                        </div>
+                    </div>
+
+                    <div id="store-container-card4" class="store-container-card" onclick="redirectToPage('XYZ Laundry Service')">
+                        <div class="store-container-card-top">
+                            <img src="image/image.jpg" class="shop_img">
+                        </div>
+                        <div class="store-container-card-middle">
+                            <img class="img_star" src="image/star.png">
+                            <img class="img_star" src="image/star.png">
+                            <img class="img_star" src="image/star.png">
+                            <img class="img_star" src="image/star.png">
+                        </div>
+                        <div class="store-container-card-bottom">
+                            <div class="store-description"><span class="laundryshop_name">XYZ Laundry Service</span><br>Luxurious garment care with a focus on quality and finesse.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+    function toggleMenu(){
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
