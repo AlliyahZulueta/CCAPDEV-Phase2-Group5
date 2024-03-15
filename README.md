@@ -1,4 +1,4 @@
-NOTE: The node_modules folder already exists in our zip file, but in case any issues arise, here are the npm commands we used to install the external libraries.
+NOTE: Here are the npm commands we used to install the external libraries.
 
 Install Command:\
 npm init -y\
