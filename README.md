@@ -1,7 +1,7 @@
 NOTE: The node_modules folder already exists in our zip file, but in case any issues arise, here are the npm commands we used to install the external libraries.
 
 Install Command:
-npm init
+npm init -y
 npm i express express-handlebars body-parser mongoose
 
 For importing the JSON files into MongoDB, there's a function that automatically handles it. Ensure that upon the initial run, there are no existing Laundry_Shop databases in the MongoDB database to ensure that the JSON files are updated. 
