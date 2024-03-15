@@ -1,0 +1,76 @@
+[
+    {
+        "username" : "lunaris",
+        "profile_pic" : "image/althea/aby-profile.png",
+        "firstname" : "Alliyah",
+        "lastname" : "Zulueta",
+        "email" : "alliyah_zulueta@dlsu.edu.ph",
+        "mobnum" : 9152716285,
+        "shortdesc" : "Palworld adict",
+        "name" : "Alliyah Zulueta",
+        "ratingCount" : 70,
+        "rating_ave" : 4,
+        "reviewsNo": 30,
+        "reviews" : null
+    },
+
+    {
+        "username" : "azulalala",
+        "profile_pic" : "image/althea/baby-profile.png",
+        "firstname" : "Keira",
+        "lastname" : "Alcantara",
+        "email" : "keira_alcantara@dlsu.edu.ph",
+        "mobnum" : 9561780193,
+        "shortdesc" : "5 months doing laundry alone",
+        "name" : "Keira Alcantara",
+        "ratingCount" : 70,
+        "rating_ave" : 4,
+        "reviewsNo": 30,
+        "reviews" : null
+    },
+
+    {
+        "username" : "taylornation",
+        "profile_pic" : "image/althea/caby-profile.png",
+        "firstname" : "Candice",
+        "lastname" : "Fernandez",
+        "email" : "candice_fernandez@dlsu.edu.ph",
+        "mobnum" : 9834724724263,
+        "shortdesc" : "certified labandera",
+        "name" : "Candice Fernandez",
+        "ratingCount" : 70,
+        "rating_ave" : 4,
+        "reviewsNo": 30,
+        "reviews" : null
+    },
+
+    {
+        "username" : "livvy200",
+        "profile_pic" : "image/althea/daby-profile.png",
+        "firstname" : "Charlize",
+        "lastname" : "Brodeth",
+        "email" : "charlize_brodeth@dlsu.edu.ph",
+        "mobnum" : 9123131,
+        "shortdesc" : "Taylor Swift lover",
+        "name" : "Charlize Brodeth",
+        "ratingCount" : 70,
+        "rating_ave" : 4,
+        "reviewsNo": 30,
+        "reviews" : null
+    },
+
+    {
+        "username" : "MgaTambay01",
+        "profile_pic" : "image/althea/gaby-profile.png",
+        "firstname" : "Olivia",
+        "lastname" : "Rodrigo",
+        "email" : "olivia_rodrigo@gmail.com",
+        "mobnum" : 9612467123,
+        "shortdesc" : "Number 1 fan",
+        "name" : "Olivia Rodrigo",
+        "ratingCount" : 70,
+        "rating_ave" : 4,
+        "reviewsNo": 30,
+        "reviews" : null
+    }
+]

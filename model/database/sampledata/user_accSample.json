@@ -1,0 +1,64 @@
+[
+    {
+        "username" : "lunaris",
+        "password" : "Gaberielle05",
+        "isLoggedin" : true,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "azulalala",
+        "password" : "Firenationrules1",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "taylornation",
+        "password" : "Swiftiee3000",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "livvy200",
+        "password" : "DriversDejaVu05",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "MgaTambay01",
+        "password" : "TambayngTaft03",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "AndresMulach",
+        "password" : "qwerty12345",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "AtashaMulach",
+        "password" : "qwerty12345",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "JuliaBaretto",
+        "password" : "qwerty12345",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    },
+
+    {
+        "username" : "JuanKarlos",
+        "password" : "qwerty12345",
+        "isLoggedin" : false,
+        "remeberMe" : false
+    }
+]
