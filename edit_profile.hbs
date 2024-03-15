@@ -1,0 +1,86 @@
+<div class="container">
+    {{> navbar}}
+
+    <div class="form-box">
+        <div class="pfp">
+            <label for="profileImage" class="profile-image-label">
+                <img
+                    src={{profile.profile_pic}}
+                    alt="Your Image"
+                    class="profile-image"
+                    id="previewImage"
+                />
+                <span class="insert-image-text">Insert Image</span>
+            </label>
+            <input
+                type="file"
+                id="profileImage"
+                accept="image/*"
+                style="display: none"
+                onchange="previewProfileImage(event)"
+            />
+        </div>
+
+        <div class="username">
+            <i>@{{profile.username}}</i>
+        </div>
+
+        <div class="name-edit">
+            <div class="name">
+                <h1 id="userName">{{profile.name}}</h1>
+            </div>
+        </div>
+        <hr />
+
+        <div class="display-details">
+            <div class="user-details">
+                <h4>First Name:</h4>
+                <input type="text" value="{{profile.firstname}}" contenteditable="true" />
+            </div>
+
+            <div class="user-details">
+                <h4>Last Name:</h4>
+                <input type="text" value="{{profile.lastname}}" contenteditable="true" />
+            </div>
+
+            <div class="user-details">
+                <h4>Username:</h4>
+                <input type="text" value="{{profile.username}}" contenteditable="true" />
+            </div>
+
+            <div class="user-details">
+                <h4>Email:</h4>
+                <input
+                    type="text"
+                    value="{{profile.email}}"
+                    contenteditable="true"
+                />
+            </div>
+
+            <div class="user-details">
+                <h4>Mobile Number:</h4>
+                <input type="text" value="{{profile.mobnum}}" contenteditable="true" />
+            </div>
+        </div>
+
+        <div class="user-details">
+            <h4>Short Description:</h4>
+            <label>
+                <textarea contenteditable="true">{{profile.shortdesc}}</textarea>
+            </label>
+        </div>
+
+        <div class="btn-field">
+            <form action="/profile">
+                <button type="submit" id="saveBtn">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    let subMenu = document.getElementById("subMenu");
+    function toggleMenu() {
+        subMenu.classList.toggle("open-menu");
+    }
+</script>
